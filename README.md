@@ -31,6 +31,15 @@
 
 ## 开发指南
 
+## 开发指南【重点】
+
+异常点
+cnpm install -g node-sass@7.0.1
+visual studio 2022 需要安装 vs 的 c++ 开发桌面
+cnpm install node-sass@7.0.1
+cnpm install cropperjs
+cnpm install json5
+
 以下是参与开发 amis 才需要看的，使用请看前面的文档。
 
 > 如果 github 下载慢可以使用 [gitee](https://gitee.com/baidu/amis) 上的镜像。
@@ -40,6 +49,8 @@
 ```bash
 # 安装项目 npm 依赖，在 node 12 下会有报错但不影响正常使用。
 npm i --legacy-peer-deps
+
+
 
 # 启动项目，等编译结束后通过 http://127.0.0.1:8888/examples/pages/simple 访问。
 npm start

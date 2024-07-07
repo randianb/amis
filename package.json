@@ -41,9 +41,16 @@
     ]
   },
   "dependencies": {
+    "cropperjs": "^1.6.2",
+    "font-awesome": "^4.7.0",
+    "husky": "^9.0.11",
+    "json5": "^2.2.3",
+    "node-sass": "^7.0.1",
     "path-to-regexp": "^6.2.0",
     "postcss": "^8.4.14",
-    "qs": "6.9.7"
+    "qs": "6.9.7",
+    "react-is": "^18.3.1",
+    "tinycolor2": "^1.6.0"
   },
   "devDependencies": {
     "@babel/generator": "^7.22.9",
@@ -93,6 +100,7 @@
     "magic-string": "^0.26.7",
     "marked": "^4.2.1",
     "monaco-editor": "0.30.1",
+    "node-sass": "^7.0.1",
     "plugin-react-i18n": "1.0.5",
     "postcss-scss": "^4.0.6",
     "prismjs": "^1.29.0",
